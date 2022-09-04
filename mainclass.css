@@ -1,0 +1,24 @@
+.h1color{
+    color: rgb(75, 231, 63);
+    text-align: center;
+    width: 100%;
+    margin-top: 6px;
+    font-size: 5rem;
+}
+
+.bg-color{
+    background-color: rgb(229, 241, 241);
+}
+
+.notextmuted{
+    color: black;
+}
+.bg-img{
+    background-image: image(100%);
+}
+
+.videoClass{
+    width: 100%;
+    margin-top: 6px;
+    justify-content: center;
+}
