@@ -1,0 +1,95 @@
+@import "_varios.scss";
+
+.h1color {
+    color: rgb(75, 231, 63);
+    text-align: center;
+    width: 100%;
+    margin-top: 6px;
+    font-size: 5rem;
+}
+
+.bg-color {
+    background-color: rgb(229, 241, 241);
+}
+
+.notextmuted {
+    color: black;
+}
+
+.bg-img {
+    background-image: image(100%);
+}
+
+.videoClass {
+    width: 100%;
+    margin-top: 6px;
+    justify-content: center;
+}
+
+.logoAnimacion {
+    animation-duration: 10s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.posicionFormulario {
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.ubicacion {
+    padding-top: 8%;
+}
+
+.gb__color--button {
+    background-color: rgb(213, 244, 166);
+}
+
+.centrarCaruselimagen1 {
+    margin-left: 12%;
+}
+
+.centrarCaruselimagen2 {
+    margin-left: 35%;
+}
+
+.centrarCaruselimagen3 {
+    margin-left: 35%;
+}
+
+.centrarTexto {
+    text-align: center;
+}
+
+.footer__size--image {
+    width: 2.5%;
+}
+
+.footer__margin--image {
+    margin-left: 47.5%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+
+}
+
+.padingTabla {
+    padding-top: 3%;
+}
+
+h1{
+   text-align: center;
+   color: $h1color;
+   font-size: $fontsizeh1;
+
+}
