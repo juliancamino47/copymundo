@@ -1,8 +1,30 @@
-$h1color: red;
-$fontsizeh1: 6rem;
+$h1color: rgb(18, 72, 3);
+$fontsizeh1: 3rem;
 
 h3{
     font-size: medium;
     color: red;
     font-style: italic;
 }
+.deliveryMain{
+    display: flex;
+    
+}
+.map{
+    width: 600px;
+    height: 400px;
+}
+.tablaDelibery{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border: 2px black solid;
+    width: 50%;
+    
+}
+@media(max-width: 938px){
+    .deliveryMain{
+        display: block;
+    }
+}
+
