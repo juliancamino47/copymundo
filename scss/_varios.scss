@@ -1,30 +1,35 @@
 $h1color: rgb(18, 72, 3);
 $fontsizeh1: 3rem;
 
-h3{
+
+
+h3 {
     font-size: medium;
-    color: red;
+    color: rgb(239, 20, 20);
     font-style: italic;
 }
-.deliveryMain{
+
+.deliveryMain {
     display: flex;
-    
+
 }
-.map{
+
+.map {
     width: 600px;
     height: 400px;
 }
-.tablaDelibery{
+
+.tablaDelibery {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     border: 2px black solid;
     width: 50%;
-    
+
 }
-@media(max-width: 938px){
-    .deliveryMain{
+
+@media(max-width: 938px) {
+    .deliveryMain {
         display: block;
     }
 }
-

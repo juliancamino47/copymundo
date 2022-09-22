@@ -1,0 +1,25 @@
+//textsize
+$textms: 1rem;
+$textmd: 1.6rem;
+$textlg: 2rem;
+
+
+@mixin textosh2($size,$color,$peso,$posicion) {
+    font-size: $size;
+    color: $color;
+    font-weight: $peso;
+    text-align: $posicion;
+}
+
+.h2{
+    @include textosh2(1.3rem, red, 600, center)
+}
+
+$paletadecolores:(
+    'rojo':     rgb(239, 20, 20),
+    'amarillo': rgb(75, 231, 63),
+    'azul':     rgb(18, 18, 157),
+    'negro':    rgb(7, 7, 7),
+    'blanco':   rgb(249, 240, 240),
+    'verde':    rgb(183, 241, 183),
+);
