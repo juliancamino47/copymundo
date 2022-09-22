@@ -1,4 +1,5 @@
 @import "_varios.scss";
+@import "_variables.scss";
 
 .h1color {
     color: rgb(75, 231, 63);
@@ -6,6 +7,11 @@
     width: 100%;
     margin-top: 6px;
     font-size: 5rem;
+}
+
+.h1Nosotros{
+    @extend .h1color;
+    font-weight: 500;
 }
 
 .bg-color {
@@ -86,9 +92,13 @@
     padding-top: 3%;
 }
 
-h1{
-   text-align: center;
-   color: $h1color;
-   font-size: $fontsizeh1;
+h1 {
+    text-align: center;
+    color: $h1color;
+    font-size: $fontsizeh1;
 
+}
+
+.bg--color__Nosotros{
+    background-color: map-get($map: $paletadecolores , $key:'blanco' );
 }
