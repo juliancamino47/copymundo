@@ -5,7 +5,7 @@ $fontsizeh1: 3rem;
 
 h3 {
     font-size: medium;
-    color: rgb(239, 20, 20);
+    color: map-get($map: $paltadecolores, $key: 'negro');
     font-style: italic;
 }
 

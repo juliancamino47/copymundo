@@ -1,6 +1,6 @@
 h3 {
   font-size: medium;
-  color: rgb(239, 20, 20);
+  color: get;
   font-style: italic;
 }
 
@@ -46,7 +46,7 @@ h3 {
 }
 
 .bg-color {
-  background-color: rgb(229, 241, 241);
+  background-color: rgb(229, 244, 208);
 }
 
 .notextmuted {

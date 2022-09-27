@@ -15,7 +15,7 @@
 }
 
 .bg-color {
-    background-color: rgb(229, 241, 241);
+    background-color: map-get($map: $paletadecolores , $key:'fondo1');
 }
 
 .notextmuted {
