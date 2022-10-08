@@ -1,38 +1,6 @@
 $h1color: rgb(18, 72, 3);
 $fontsizeh1: 3rem;
 
-
-
-h3 {
-    font-size: medium;
-    color: rgb(239, 20, 20);
-    font-style: italic;
-}
-
-.deliveryMain {
-    display: flex;
-
-}
-
-.map {
-    width: 600px;
-    height: 400px;
-}
-
-.tablaDelibery {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    border: 2px black solid;
-    width: 50%;
-
-}
-
-@media(max-width: 938px) {
-    .deliveryMain {
-        display: block;
-    }
-}
 $h1color: red;
 $fontsizeh1: 6rem;
 
@@ -67,3 +35,38 @@ $paletadecolores:(
     'verde':    rgb(183, 241, 183),
     'fondo1':   rgb(229, 244, 208),
 );
+
+
+
+h3 {
+    font-size: medium;
+    color: rgb(239, 20, 20);
+    font-style: italic;
+}
+
+.deliveryMain {
+    display: flex;
+
+}
+
+.map {
+    width: 600px;
+    height: 400px;
+}
+
+.tablaDelibery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border: 2px black solid;
+    width: 50%;
+
+}
+
+@media(max-width: 938px) {
+    .deliveryMain {
+        display: block;
+    }
+}
+
+
