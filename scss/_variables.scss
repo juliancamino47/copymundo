@@ -12,7 +12,7 @@ $textlg: 2rem;
 }
 
 .h2{
-    @include textosh2(1.3rem, red, 600, center)
+    @include textosh2(1.3rem, rgb(10, 7, 7), 600, center)
 }
 
 $paletadecolores:(
