@@ -26,6 +26,19 @@ h3 {
     display: block;
   }
 }
+h3 {
+  font-size: medium;
+  color: red;
+  font-style: italic;
+}
+
+.h2 {
+  font-size: 1.3rem;
+  color: rgb(10, 7, 7);
+  font-weight: 600;
+  text-align: center;
+}
+
 .h2 {
   font-size: 1.3rem;
   color: red;
@@ -135,8 +148,8 @@ h3 {
 
 h1 {
   text-align: center;
-  color: rgb(18, 72, 3);
-  font-size: 3rem;
+  color: red;
+  font-size: 6rem;
 }
 
 .bg--color__Nosotros {
