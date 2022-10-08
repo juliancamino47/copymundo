@@ -5,13 +5,16 @@ $fontsizeh1: 3rem;
 
 h3 {
     font-size: medium;
-    color: map-get($map: $paltadecolores, $key: 'negro');
+    color: map-get($map: $paletadecolores , $key:'negro' );
     font-style: italic;
 }
 
 .deliveryMain {
     display: flex;
 
+}
+.h5{
+    text-align: center;
 }
 
 .map {
