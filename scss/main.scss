@@ -15,7 +15,7 @@
 }
 
 .bg-color {
-    background-color: map-get($map: $paletadecolores , $key:'fondo1');
+    background-color: rgb(229, 241, 241);
 }
 
 .notextmuted {
@@ -63,15 +63,15 @@
 }
 
 .centrarCaruselimagen1 {
-    margin-left: 0%;
+    margin-left: 12%;
 }
 
 .centrarCaruselimagen2 {
-    margin-left: 0%;
+    margin-left: 35%;
 }
 
 .centrarCaruselimagen3 {
-    margin-left: 0%;
+    margin-left: 35%;
 }
 
 .centrarTexto {
